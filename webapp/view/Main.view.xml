@@ -1,0 +1,4 @@
+<mvc:View controllerName="PhoneSplit.controller.Main" xmlns:mvc="sap.ui.core.mvc"
+	displayBlock="true" xmlns="sap.m">
+	<SplitApp id="rootControl"/>
+</mvc:View>

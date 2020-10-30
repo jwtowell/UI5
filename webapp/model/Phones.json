@@ -1,0 +1,37 @@
+{
+	"Phones": [{
+		"ID": "0",
+		"Name": "Galacsy S8",
+		"Desc": "Hot Galacsy phone",
+		"Battery": "12 Hours",
+		"Screen": "4.5 Inch",
+		"Colours": [{
+			"Colour": "Red"
+			},{
+			"Colour": "White"
+		}]
+	}, {
+		"ID": "1",
+		"Name": "Galacsy S9",
+		"Desc": "Latest Galacsy phone",
+		"Battery": "11 Hours",
+		"Screen": "5 Inch",
+		"Colours": [{
+			"Colour": "Purple"
+			},{
+			"Colour": "Blue"
+		}]
+	}, {
+		"ID": "2",
+		"Name": "iFone 10",
+		"Desc": "Not so new Apple phone",
+
+		"Battery": "10 Hours",
+		"Screen": "5.5 Inch",
+		"Colours": [{
+			"Colour": "Pink"
+			},{
+			"Colour": "Green"
+		}]
+	}]
+}

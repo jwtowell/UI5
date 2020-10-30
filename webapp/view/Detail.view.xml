@@ -1,0 +1,35 @@
+<mvc:View controllerName="PhoneSplit.controller.Detail" xmlns="sap.m" xmlns:mvc="sap.ui.core.mvc" xmlns:f="sap.ui.layout.form"
+	busyIndicatorDelay="0" xmlns:semantic="sap.m.semantic">
+	<semantic:DetailPage title="{Name}" class="sapUiResponsiveContentPadding">
+		<semantic:content>
+			<Panel id="detailPanel" width="auto" class="sapUiNoContentPadding">
+				<headerToolbar>
+					<Toolbar>
+						<Title text="{Desc}" level="H2"/>
+					</Toolbar>
+				</headerToolbar>
+				<content>
+					<f:SimpleForm editable="false" layout="ResponsiveGridLayout" labelSpanL="3" labelSpanM="3" emptySpanL="4" emptySpanM="4" columnsL="1"
+						columnsM="1">
+						<f:content>
+							<Label text="{i18n>Battery}"/>
+							<Text text="{Battery}"/>
+							<Label text="{i18n>Screen}"/>
+							<Text text="{Screen}"/>
+						</f:content>
+					</f:SimpleForm>
+					<List id="colourList" items="{Colours}">
+						<headerToolbar>
+							<Toolbar>
+								<content>
+									<Title text="Colours" level="H3"/>
+								</content>
+							</Toolbar>
+						</headerToolbar>
+						<StandardListItem title="{Colour}" type="Navigation" press="onListDetailPressed"/>
+					</List>
+				</content>
+			</Panel>
+		</semantic:content>
+	</semantic:DetailPage>
+</mvc:View>

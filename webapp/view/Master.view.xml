@@ -1,0 +1,16 @@
+<mvc:View controllerName="PhoneSplit.controller.Master" xmlns="sap.m" xmlns:mvc="sap.ui.core.mvc" xmlns:semantic="sap.m.semantic">
+	<semantic:MasterPage title="{i18n>title}">
+		<semantic:content>
+			<List id="PhoneList" items="{/Phones}" >
+				<headerToolbar>
+					<Toolbar>
+						<content>
+							<Title text="Phones" level="H2"/>
+						</content>
+					</Toolbar>
+				</headerToolbar>
+				<StandardListItem title="{Name}" description="{Desc}" type="Navigation" press="onListItemPressed"/>
+			</List>
+		</semantic:content>
+	</semantic:MasterPage>
+</mvc:View>
